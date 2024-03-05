@@ -97,12 +97,11 @@ body::before {
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 72px;
-    padding-bottom: 3rem;
 }
 
 h4 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 55px;
+    font-size: 40px;
     padding-bottom: 3rem;
 }
 
