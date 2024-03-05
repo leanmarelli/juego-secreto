@@ -33,8 +33,8 @@ function limpiarCaja(){
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random() * numMaximo) + 1
     //si el num generado esta incluido en la lista hacemos una operacion y sino otra
-    console.log(numeroGenerado);
-    console.log(listaNumerosGenerados);
+    /* console.log(numeroGenerado);
+    console.log(listaNumerosGenerados); */
     if(listaNumerosGenerados.length != numMaximo){
         if(listaNumerosGenerados.includes(numeroGenerado)){
             return generarNumeroSecreto()
@@ -50,7 +50,8 @@ function generarNumeroSecreto() {
 
 function condicionesIniciales(){
     asignarTextoElemento('h1', 'Juego Secreto')
-    asignarTextoElemento('p', `Inica un número de 1 al ${numMaximo}`)
+    asignarTextoElemento('h4', `Inica un número de 1 al ${numMaximo}`)
+    asignarTextoElemento('p', `Ingresa un número`)
     intentos = 1
     numSecreto = generarNumeroSecreto()
 }
