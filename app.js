@@ -50,8 +50,8 @@ function generarNumeroSecreto() {
 
 function condicionesIniciales(){
     asignarTextoElemento('h1', 'Juego Secreto')
-    asignarTextoElemento('h4', `Inica un número de 1 al ${numMaximo}`)
-    asignarTextoElemento('p', `Ingresa un número`)
+    asignarTextoElemento('h4', `Pensá un número del 1 al ${numMaximo}`)
+    asignarTextoElemento('p', `Ingresa el número`)
     intentos = 1
     numSecreto = generarNumeroSecreto()
 }
